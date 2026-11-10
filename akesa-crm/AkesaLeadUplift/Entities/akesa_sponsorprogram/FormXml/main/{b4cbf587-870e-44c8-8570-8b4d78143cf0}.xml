@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<forms>
+  <systemform>
+    <formid>{b4cbf587-870e-44c8-8570-8b4d78143cf0}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="false" headerdensity="HighWithControls" showImage="false">
+      <tabs>
+        <tab verticallayout="true" id="{b3ce06af-1f80-4f86-a716-f23b54324240}" IsUserDefined="1" name="generaltab" labelid="{c489c3fd-9f6f-4751-bdc8-8f7c611e97ac}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{037292a7-eca8-4b2d-b2e1-c905d1b83412}" labelid="{e324ecdc-392c-4b7e-9670-7b4d9fe6dc19}" name="generalsection">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{013413a2-1584-4483-b850-8a2c17eba397}" labelid="{24f1fcd2-7e25-41c0-acee-a338217cb945}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="akesa_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="akesa_name" />
+                      </cell>
+                    </row>
+                  <row><cell id="{50f73b7c-53fa-4c62-989e-ac166cf2a179}" labelid="{f29ce699-be39-43b8-b5ed-aee02a58ad5b}"><labels><label description="Sponsor Program Code" languagecode="1033" /></labels><control id="akesa_programcode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="akesa_programcode" /></cell></row><row><cell id="{abe067ff-98cd-4f5e-ad8f-98afb3b508cf}" labelid="{4a4b4cbd-b8ff-45e7-97e9-b31449eec027}"><labels><label description="Sponsor" languagecode="1033" /></labels><control id="akesa_sponsorname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="akesa_sponsorname" /></cell></row></rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{eaad625c-9dc3-4532-a122-67122241fd91}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{0daaf774-c344-43b1-9742-02b950dd5f62}" showlabel="false" labelid="{ea0777db-d09e-4b5a-88b3-0872a9d819ab}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{07679ea3-f803-4597-b931-72daf7ba7abb}" showlabel="false" labelid="{d14a67ef-cfb3-478a-8607-c68f5b886d92}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a40d1820-105b-4b02-aa39-8fb97519cdbf}" showlabel="false" labelid="{e1135c0c-d9b8-4784-8b59-252b688ee612}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{eca2f992-ef99-41fb-b1b7-2065c50eea14}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{a5cbd350-fd9d-4972-9520-03dca32c5e66}" showlabel="false" labelid="{60f6bb9e-cd7b-41c5-be3b-4a7439ef1cbf}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{5a2f6691-c4a6-49fd-8c93-672f070fd4d1}" showlabel="false" labelid="{7415dff5-eafb-47f5-b05f-c896a2ccc588}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{4eb87516-c959-44b7-82b6-c94c7f599cf5}" showlabel="false" labelid="{8db220a0-67c0-499b-8959-3360ab9c3a9c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>0</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Default Sponsor Program Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A default main form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

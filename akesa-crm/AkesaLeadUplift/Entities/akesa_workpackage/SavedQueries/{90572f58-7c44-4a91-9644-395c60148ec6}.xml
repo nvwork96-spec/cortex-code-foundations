@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{90572f58-7c44-4a91-9644-395c60148ec6}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="akesa_name" select="1" icon="1" preview="1">
+        <row name="result" id="akesa_workpackageid">
+          <cell name="akesa_name" width="200" /><cell name="akesa_packagetype" width="120" /><cell name="akesa_vendor" width="180" /><cell name="akesa_tranche" width="140" /></row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="akesa_workpackage">
+          <attribute name="akesa_workpackageid" /><attribute name="akesa_name" /><attribute name="akesa_packagetype" /><attribute name="akesa_vendor" /><attribute name="akesa_tranche" /><order attribute="akesa_name" descending="false" /><filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Work Packages" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

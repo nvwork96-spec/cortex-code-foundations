@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{1a0c8819-f3ca-47c1-b2b1-b6281e146c37}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="akesa_name" select="1" icon="1" preview="1">
+        <row name="result" id="akesa_sponsorprogramid">
+          <cell name="akesa_name" width="200" /><cell name="akesa_programcode" width="140" /><cell name="akesa_sponsorname" width="200" /></row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="akesa_sponsorprogram">
+          <attribute name="akesa_sponsorprogramid" /><attribute name="akesa_name" /><attribute name="akesa_programcode" /><attribute name="akesa_sponsorname" /><order attribute="akesa_name" descending="false" /><filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Sponsor Programs" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

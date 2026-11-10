@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<forms>
+  <systemform>
+    <formid>{7c970865-555a-4500-b9c0-7464296ff99e}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="false" headerdensity="HighWithControls" showImage="false">
+      <tabs>
+        <tab verticallayout="true" id="{b38052b9-0b3e-492a-a78e-bd2f56be7970}" IsUserDefined="1" name="generaltab" labelid="{230a2e77-ae03-46e3-a67f-41268e85ca22}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f76b3af8-1366-455d-9ea5-42261d0f2d6e}" labelid="{e09022db-8d8b-43a8-8cd3-26d63199e32b}" name="generalsection">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{28286524-b9a3-4193-a7e7-6b21b8daec0c}" labelid="{633c1fa2-adc9-4bf8-afad-46c6dfa71d1e}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="akesa_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="akesa_name" />
+                      </cell>
+                    </row>
+                  <row><cell id="{cba69d64-7e7e-45af-958d-493bf9c90ccb}" labelid="{5562534f-595e-42ed-89e5-1aed17bdefdc}"><labels><label description="Version Number" languagecode="1033" /></labels><control id="akesa_versionnumber" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="akesa_versionnumber" /></cell></row><row><cell id="{02c0f32e-c63c-4394-a315-a211b4d1acf0}" labelid="{4efcad35-be13-4454-b318-aeed240792f4}"><labels><label description="Quote Family" languagecode="1033" /></labels><control id="akesa_quotefamily" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="akesa_quotefamily" /></cell></row><row><cell id="{e7f7ccba-a26d-40fd-b539-02bad94f2a70}" labelid="{ca901dba-bfcb-477f-bda1-1e5da224f15a}"><labels><label description="Version Status" languagecode="1033" /></labels><control id="akesa_versionstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="akesa_versionstatus" /></cell></row><row><cell id="{5303273c-208d-471f-8ec9-830dd0eade1f}" labelid="{1b57ce20-2420-4ece-b33a-5881a2b8290a}"><labels><label description="Accepted Version" languagecode="1033" /></labels><control id="akesa_isaccepted" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="akesa_isaccepted" /></cell></row></rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{5556cb08-24ac-49f6-8438-23d2dd52c25b}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{55033a99-aaff-4190-89fb-95b84267853a}" showlabel="false" labelid="{74aabcf3-c718-4027-ad93-482ffa025b4a}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{61f91286-3845-4282-af8b-d2d86200432d}" showlabel="false" labelid="{d5bab4a9-d267-4a3b-80ac-2d77c75d7f03}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{66e7017b-27c1-4ab4-a6ec-96b01375d97f}" showlabel="false" labelid="{288f431a-766d-4b45-829a-f8aa01ffebb4}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{494879e1-fea7-43a1-ae19-a8637613e244}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{329ef081-27e3-4981-aad6-7f958caf61aa}" showlabel="false" labelid="{ef45fe38-5612-4d71-bdf9-9008b8e30efa}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{82d14496-dab4-4095-a062-7b8b5b78c5ea}" showlabel="false" labelid="{291be1c7-d5bd-472e-8a2b-0471a6e72429}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6fab5983-c3a4-4afd-97a5-f8fb511bbf3c}" showlabel="false" labelid="{2d59e0fe-b999-490f-aae7-115fe6861cad}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>0</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Default Quote Version Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A default main form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

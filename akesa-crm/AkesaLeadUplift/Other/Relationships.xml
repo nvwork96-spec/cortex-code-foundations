@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="akesa_akesa_sponsorprogram_akesa_project_sponsorprogram" />
+  <EntityRelationship Name="akesa_akesa_project_akesa_tranche_project" />
+  <EntityRelationship Name="akesa_lead_akesa_tranche_lead" />
+  <EntityRelationship Name="akesa_opportunity_akesa_tranche_opportunity" />
+  <EntityRelationship Name="akesa_akesa_project_akesa_workpackage_project" />
+  <EntityRelationship Name="akesa_akesa_tranche_akesa_workpackage_tranche" />
+  <EntityRelationship Name="akesa_opportunity_akesa_workpackage_opportunity" />
+  <EntityRelationship Name="akesa_akesa_project_akesa_quotefamily_project" />
+  <EntityRelationship Name="akesa_akesa_tranche_akesa_quotefamily_tranche" />
+  <EntityRelationship Name="akesa_opportunity_akesa_quotefamily_opportunity" />
+  <EntityRelationship Name="akesa_akesa_quotefamily_akesa_quoteversion_quotefamily" />
+  <EntityRelationship Name="akesa_akesa_project_lead_project" />
+  <EntityRelationship Name="akesa_akesa_tranche_lead_tranche" />
+  <EntityRelationship Name="akesa_akesa_project_opportunity_project" />
+  <EntityRelationship Name="akesa_akesa_tranche_opportunity_tranche" />
+</EntityRelationships>
