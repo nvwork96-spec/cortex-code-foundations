@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{dc52e57f-f579-464b-8d73-0c5bbb39f2e7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="akesa_name" select="1" icon="1" preview="1">
+        <row name="result" id="akesa_quotefamilyid">
+          <cell name="akesa_name" width="200" /><cell name="akesa_quotenumber" width="140" /><cell name="akesa_tranche" width="140" /></row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="akesa_quotefamily">
+          <attribute name="akesa_quotefamilyid" /><attribute name="akesa_name" /><attribute name="akesa_quotenumber" /><attribute name="akesa_tranche" /><order attribute="akesa_name" descending="false" /><filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Quote Families" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

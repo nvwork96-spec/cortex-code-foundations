@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='utf-8'?>
+<forms>
+  <systemform>
+    <formid>{203e8c76-7e76-48be-92a0-20bc26c86ad3}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="false" headerdensity="HighWithControls" showImage="false">
+      <tabs>
+        <tab verticallayout="true" id="{ed3fdad5-bf32-401e-a8d5-85fe6a6c75b2}" IsUserDefined="1" name="generaltab" labelid="{44ff42ea-f9b5-463f-a413-c4907cb58be1}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{43f6382b-9734-480f-b8db-a72639695d86}" labelid="{c58b5a21-d960-4506-b9a1-5592e9e8db5a}" name="generalsection">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7b76745e-5ab7-4eff-b889-a225669fe722}" labelid="{2563d847-d0b5-4bd0-9043-bb73864d7d7e}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="akesa_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="akesa_name" />
+                      </cell>
+                    </row>
+                  <row><cell id="{224a7577-2a6f-4e42-812c-c50997a30960}" labelid="{05144872-3cbe-454e-a104-0e1c46d0e987}"><labels><label description="Tranche" languagecode="1033" /></labels><control id="akesa_tranchecode" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="akesa_tranchecode" /></cell></row><row><cell id="{49e73187-ff6c-4787-964f-4d10cb0daa65}" labelid="{2c8417db-dbb5-4062-beb1-f4aaf4de1e56}"><labels><label description="Sequence" languagecode="1033" /></labels><control id="akesa_sequencenumber" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="akesa_sequencenumber" /></cell></row><row><cell id="{56115045-b65e-4b63-a7d8-004ff5f34f4e}" labelid="{4091611c-8fb3-47ef-a1b2-7f9c89236329}"><labels><label description="Akesa Project" languagecode="1033" /></labels><control id="akesa_project" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="akesa_project" /></cell></row><row><cell id="{2c9bf1fa-d8b9-46da-b6e6-3b45929fd809}" labelid="{c5cec16a-5f25-4df3-a9d3-d289c09a8f97}"><labels><label description="Lead Time" languagecode="1033" /></labels><control id="akesa_leadtime" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="akesa_leadtime" /></cell></row><row><cell id="{e0e8b52b-27c9-4c06-bd0a-de1da3e2655e}" labelid="{b7fd6dfb-b866-43c2-9eae-ce8d7d52d03f}"><labels><label description="Lead" languagecode="1033" /></labels><control id="akesa_lead" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="akesa_lead" /></cell></row><row><cell id="{7c7327fb-e951-4f34-8fa5-15046236d823}" labelid="{af1c869e-0e0a-4139-83be-611cdaad3158}"><labels><label description="Opportunity" languagecode="1033" /></labels><control id="akesa_opportunity" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="akesa_opportunity" /></cell></row></rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{0e47cd4d-71bb-4463-a586-cd632c7e91dc}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{72cef4c7-07e6-4dda-84b5-0bd089a2ee70}" showlabel="false" labelid="{dae6f137-e411-4bf7-9988-a4bccd18fdd8}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b35a6ef1-b6f1-4e2b-87d2-a911417556cc}" showlabel="false" labelid="{f98fdfcc-8165-4233-9cb0-c1dbee3bf643}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f2f63933-e33c-4d88-8972-9d306914a8d3}" showlabel="false" labelid="{bc925ed4-8d7d-4f03-b1de-95152a8b43e5}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{f79e6a2b-42cf-4df4-b4af-895502ebe0d4}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{ed8461b3-e07e-4c59-b0de-bf83785d9b37}" showlabel="false" labelid="{eb07e7dc-63e5-49bf-83c2-2405e2aaab94}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{2bc7701d-96fc-4f79-a214-cb84039ea8a1}" showlabel="false" labelid="{5b341dfb-86a0-434d-aab8-a55a136aba5c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{027fdc7d-31bd-4e26-a34e-0046cf41eba5}" showlabel="false" labelid="{01f9179e-1b1c-498e-8176-58e23c6fc011}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>0</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Default Tranche Main Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A default main form" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

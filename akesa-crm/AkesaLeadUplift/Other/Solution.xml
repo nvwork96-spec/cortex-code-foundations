@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.643" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>AkesaLeadUplift</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Akesa CRM Lead Uplift" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Chapter 1 of the Akesa CRM uplift. Extends Lead and Opportunity with the Fisher-Davinci lead form, stage gates, and the Akesa Project and Tranche records created when a lead is marked GO." languagecode="1033" />
+    </Descriptions>
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>Akesa</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Akesa" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Akesa" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>akesa</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>84520</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="akesa_sponsorprogram" behavior="0" />
+      <RootComponent type="1" schemaName="akesa_project" behavior="0" />
+      <RootComponent type="1" schemaName="akesa_tranche" behavior="0" />
+      <RootComponent type="1" schemaName="akesa_workpackage" behavior="0" />
+      <RootComponent type="1" schemaName="akesa_quotefamily" behavior="0" />
+      <RootComponent type="1" schemaName="akesa_quoteversion" behavior="0" />
+      <RootComponent type="1" schemaName="lead" behavior="2" />
+      <RootComponent type="1" schemaName="opportunity" behavior="2" />
+      <RootComponent type="10" schemaName="akesa_akesa_sponsorprogram_akesa_project_sponsorprogram" behavior="0" />
+      <RootComponent type="10" schemaName="akesa_akesa_project_akesa_tranche_project" behavior="0" />
+      <RootComponent type="10" schemaName="akesa_lead_akesa_tranche_lead" behavior="0" />
+      <RootComponent type="10" schemaName="akesa_opportunity_akesa_tranche_opportunity" behavior="0" />
+      <RootComponent type="10" schemaName="akesa_akesa_project_akesa_workpackage_project" behavior="0" />
+      <RootComponent type="10" schemaName="akesa_akesa_tranche_akesa_workpackage_tranche" behavior="0" />
+      <RootComponent type="10" schemaName="akesa_opportunity_akesa_workpackage_opportunity" behavior="0" />
+      <RootComponent type="10" schemaName="akesa_akesa_project_akesa_quotefamily_project" behavior="0" />
+      <RootComponent type="10" schemaName="akesa_akesa_tranche_akesa_quotefamily_tranche" behavior="0" />
+      <RootComponent type="10" schemaName="akesa_opportunity_akesa_quotefamily_opportunity" behavior="0" />
+      <RootComponent type="10" schemaName="akesa_akesa_quotefamily_akesa_quoteversion_quotefamily" behavior="0" />
+      <RootComponent type="10" schemaName="akesa_akesa_project_lead_project" behavior="0" />
+      <RootComponent type="10" schemaName="akesa_akesa_tranche_lead_tranche" behavior="0" />
+      <RootComponent type="10" schemaName="akesa_akesa_project_opportunity_project" behavior="0" />
+      <RootComponent type="10" schemaName="akesa_akesa_tranche_opportunity_tranche" behavior="0" />
+    </RootComponents>
+    <MissingDependencies />
+  </SolutionManifest>
+</ImportExportXml>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<savedqueries>
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ce7cd1c1-fe33-4f9e-abf6-9975dbe548be}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="akesa_name" select="1" icon="1" preview="1">
+        <row name="result" id="akesa_quoteversionid">
+          <cell name="akesa_name" width="180" /><cell name="akesa_versionnumber" width="120" /><cell name="akesa_versionstatus" width="140" /><cell name="akesa_isaccepted" width="120" /></row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="akesa_quoteversion">
+          <attribute name="akesa_quoteversionid" /><attribute name="akesa_name" /><attribute name="akesa_versionnumber" /><attribute name="akesa_versionstatus" /><attribute name="akesa_isaccepted" /><order attribute="akesa_name" descending="false" /><filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Quote Versions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
